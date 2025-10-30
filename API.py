@@ -40,6 +40,8 @@ def paises_csv(lista_paises):
             })
     print("CSV CREADO")
 
+if __name__ == "__main__":
 
     paises_data=paises_lista()
     paises_csv(paises_data)
+
